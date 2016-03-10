@@ -1,0 +1,7 @@
+#Wed Apr 29 15:09:38 CST 2015
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/jsp/cart/Cart.jsp=UTF-8
+encoding//WebRoot/WEB-INF/jsp/catalog/Main.jsp=UTF-8
+encoding//src/org/mybatis/jpetstore/service/DataMiningService.java=UTF-8
+encoding//src/org/mybatis/jpetstore/web/actions/DataMiningActionBean.java=UTF-8
+encoding/<project>=UTF-8

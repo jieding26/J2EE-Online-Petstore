@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.mybatis.jpetstore.persistence.RelationshipMapper">
+
+  <cache />
+
+  <select id="getRelationsByItemId" parameterType="String" resultType="Relationship">
+    SELECT *
+    FROM relationship
+    WHERE relation like #{itemid}
+  </select>
+
+  <insert id="insertRelationShip" parameterType="Relationship">
+    insert into relationship (relation)
+    values(#{relation})
+  </insert>
+	 
+  <delete id="deleteAllRelationships">
+    delete from Relationship
+  </delete>	  
+
+</mapper>
+
